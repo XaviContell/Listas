@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+	font-family: arial;
+	background-color: lightgrey;
+}
+
+h2 {
+	clear: both;
+	margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.lista1 ul {
+  font-size: 15px;
+  font-weight: bold;
+}
+.lista1 li {
+  background-color: #73d216;
+  border: #75507b 6px dashed;
+  float: left;
+  margin-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.lista2 {
+  text-align: center;
+}
+.lista2 li {
+  display: inline;
+  background-color: white;
+  border-right: black 2px solid;
+  border-bottom: black 2px solid;
+  margin-right: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.lista2 li:hover {
+  background-color: lightgrey;
+  border-left: black 2px solid;
+  border-top: black 2px solid;
+   border-right: white 2px solid;
+  border-bottom: white 2px solid;
+}
+
+
+.lista3 ul {
+  border: black 1px solid;
+  padding: 0.5em;
+}
+.lista3 li {
+	width: 150px;
+  border: black 1px solid;
+  margin: 15px 0 15px 15px;
+  padding: 7px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.lista4 {
+  text-align: center;
+}
+.lista4 li {
+  display: inline-block;
+  width: 150px;
+  margin: 0;
+  padding: 12px 0;
+  background-color: white;
+  color: #3465a4;
+  font-weight: bold;
+  text-align: center;
+}
+.lista4 li.par {
+  background-color: #3465a4;
+  color: white;
+}
+  
+ 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?om8kef');
+  src:  url('fonts/icomoon.eot?om8kef#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?om8kef') format('truetype'),
+    url('fonts/icomoon.woff?om8kef') format('woff'),
+    url('fonts/icomoon.svg?om8kef#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+
+.lista5 li {
+  float:left;
+  margin-right: 20px;
+}
+
+.lista6  {
+  text-align: center;
+}
+.lista6 li {
+  display: inline;
+  border: black 6px solid;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 20px 20px 20px;
+  background-color: white;
+  font-size: 200%;
+  line-height: 250%;
+}
+.lista6 i {
+  margin: 0;
+}
+  
